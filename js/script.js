@@ -85,34 +85,34 @@ randomWords.forEach((word) => {
 });
 
 // 自定义背景
-//document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
 	// 获取目标div元素
-	//var canvasContainer = document.querySelector(".canvas-container");
+	var canvasContainer = document.querySelector(".canvas-container");
 	// 设置背景图像和背景大小
 	// 在这里输入图片路径
-	//canvasContainer.style.backgroundImage = "url('images/background1.png')";
-	//canvasContainer.style.backgroundSize = "50%";
-//});
+	canvasContainer.style.backgroundImage = "url('images/background1.png')";
+	canvasContainer.style.backgroundSize = "100%";
+});
 
 // 自定义背景
-document.addEventListener("DOMContentLoaded", function () {
+//document.addEventListener("DOMContentLoaded", function () {
     // 获取目标 div 元素
-    var canvasContainer = document.querySelector(".canvas-container");
+    //var canvasContainer = document.querySelector(".canvas-container");
 
     // 检测设备类型：手机端或电脑端
-    var isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    //var isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
     // 根据设备类型设置不同的背景图片
-    if (isMobile) {
-        canvasContainer.style.backgroundImage = "url('images/background1.png')"; // 手机端背景
-    } else {
-        canvasContainer.style.backgroundImage = "url('images/background.png')"; // 电脑端背景
-    }
+    //if (isMobile) {
+        //canvasContainer.style.backgroundImage = "url('images/background1.png')"; // 手机端背景
+    //} else {
+       // canvasContainer.style.backgroundImage = "url('images/background.png')"; // 电脑端背景
+    //}
 
     // 设置背景大小
-    canvasContainer.style.backgroundSize = "100%"; // 或根据需要设置 "100%"、"50%" 等
-    canvasContainer.style.backgroundRepeat = "no-repeat"; // 防止背景图片重复
-});
+    //canvasContainer.style.backgroundSize = "100%"; // 或根据需要设置 "100%"、"50%" 等
+    //canvasContainer.style.backgroundRepeat = "no-repeat"; // 防止背景图片重复
+//});
 
 
 
